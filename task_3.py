@@ -42,4 +42,3 @@ def find_unique_elements(new_list):
 
 
 print(find_unique_elements(generate_list))
-
