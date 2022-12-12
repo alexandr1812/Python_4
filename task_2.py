@@ -21,19 +21,6 @@
 # [2, 5, 5, 13]
 
 
-# number = int(input()) 
-# s = [] 
-# a = 2 
-# while number > 1: 
-#     if number % a == 0: 
-#          s.append(a) 
-#          res = number//a 
-#          number = res  
-#     else: 
-#         number % a!= 0 
-#         a +=1 
-# print(s)
-
 def list_of_multipliers(number):
     while number <= 0:
         print('Enter a positive value')
