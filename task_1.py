@@ -7,12 +7,14 @@
 # 9.000000
 
 
-from decimal import Decimal 
+from decimal import Decimal
+
 
 def result():
-    number = Decimal(input('Enter a real number: ')) 
-    accuracy = number.quantize(Decimal(input('Enter the required accuracy: '))) 
+    number = Decimal(input('Enter a real number: '))
+    accuracy = number.quantize(Decimal(input('Enter the required accuracy: ')))
     return accuracy
+
 
 res = result()
 print(res)
