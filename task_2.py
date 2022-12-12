@@ -26,7 +26,6 @@ def list_of_multipliers(number):
         print('Enter a positive value')
         number = int(input('Try again: '))
 
-
     arr = []
     divider = 2
     while number > 1:
@@ -38,5 +37,6 @@ def list_of_multipliers(number):
             number % divider != 0
             divider += 1
     return arr
+
 
 print(list_of_multipliers(int(input('Enter the number: '))))
